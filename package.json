@@ -7,9 +7,13 @@
     "http-server": "^0.12.1",
     "webpack": "^2.7.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^2.1.0",
+    "postcss-cli": "^7.1.0"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "purge-css": "postcss src/**/*.css --dir build/css"
   },
   "repository": {
     "type": "git",
