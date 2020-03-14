@@ -1,0 +1,24 @@
+{
+  "name": "unused-css",
+  "version": "1.0.0",
+  "description": "Creating new workflow for removing unused CSS",
+  "main": "index.js",
+  "dependencies": {
+    "http-server": "^0.12.1",
+    "webpack": "^2.7.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dtle82/remove-unused-css-process.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dtle82/remove-unused-css-process/issues"
+  },
+  "homepage": "https://github.com/dtle82/remove-unused-css-process#readme"
+}
